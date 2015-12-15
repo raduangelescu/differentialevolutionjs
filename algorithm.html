@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="css/d3_styles.css" type="text/css" />
+</head>
+<body>
+  <script src="js/d3.min.js"></script>
+  <script src="js/diffevolution.js"></script>
+  <script src="js/d3_visualize.js"></script>
+
+  <div class="d3-chart" id="d3-chartid">   </div>
+  <div class = "blk">
+   <h2>function</h2>
+    <ul id="bulk">
+      <li class= "selectedul" id="lst0"><a onClick="onListElementClick('data/sin.csv','lst0');return false"  >$\sin$</a></li>
+      <li id="lst1" ><a onClick="onListElementClick('data/cos.csv','lst1');return false" >$\cos$</a></li>
+      <li id="lst2"><a onClick="onListElementClick('data/tan.csv','lst2');return false">$\tan$</a></li>
+      <li id="lst3"><a onClick="onListElementClick('data/exp.csv','lst3');return false">$\exp$</a></li>
+      <li id="lst4"><a onClick="onListElementClick('data/polinomial_1_2_1_0_0.csv','lst4');return false">  $x^2 + 2x + 1$ </a>  </li>
+      <li id="lst5"><a onClick="onListElementClick('data/polinomial_0_0_1_2_1.csv','lst5');return false">  $x^4 + 2x^3 + x^2$ </a>  </li>
+      <li id="lst6"><a onClick="onListElementClick('data/polinomial_1_0_1_0_1.csv','lst6');return false">  $x^4 + x^2 + 1$ </a>  </li>
+      <li id="lst7"><a onClick="onListElementClick('data/polinomial_1_2_1_3_0.csv','lst7');return false">  $3x^3 + x^2 + 2x + 1$ </a>  </li>
+      <li id="lst8"><a onClick="onListElementClick('data/polinomial_5_3_0_0_0.csv','lst8');return false">  $2x^2 + 5$ </a>  </li>
+      <li id="lst9"><a onClick="onListElementClick('data/polinomial_06_02_01_00_01.csv','lst9');return false">  $0.1x^4+0.1x^2 + 0.2x + 0.6$ </a>  </li>
+    </ul>
+  </div>
+
+</body>
+</html>

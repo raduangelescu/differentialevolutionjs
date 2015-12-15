@@ -1,0 +1,64 @@
+path, line {
+        stroke: steelblue;
+        stroke-width: 1;
+        fill: none;
+    }
+
+div.blk {
+  position: relative;
+  width: 200px;
+  margin: 30px;
+  left: 0%;
+  top: 0px;
+}
+div.d3-chart{
+position: relative;
+   left: 0px;
+   top: 0px;
+   width: 100%;
+}
+#bulk h2 {
+  font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#bulk ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#bulk li {
+  font: 150 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+#bulk li:last-child {
+  border: none;
+}
+
+.selectedul
+{
+  font-size: 20px;
+  background-color: #FF9100;
+  color: #FFF;
+}
+
+#bulk li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 150px;
+}
+
+#bulk li a:hover {
+  font-size: 20px;
+  background: #f6f6f6;
+}
